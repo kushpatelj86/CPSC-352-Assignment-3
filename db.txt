@@ -1,1 +1,3 @@
-test1  b'$2b$12$zc8arCavwFHNT14e314rMeSbsQlkKHnEMu1YdJEvHEb.gwVxMnmeW' b'$2b$12$6DJ7rkrSBrg4dGUqK8Zsve'
+test  $2b$12$oO5dv2WZqgvA4ypfOQoQz.siMwTz0qJxDQhMrMpvkE.ZuXfxRwaCi $2b$12$2aDzSJSpbmYcWi6IS1SKAO
+pike  $2b$12$fC96mpbsRyyDSci3qCIRRu0sT2mVdRdQPAXndvpO34Sv41ZSSUDBa $2b$12$9You8Wv5HZp6aGzmDhV2oO
+trust  $2b$12$UihuNOpILwjo.ImXUYRuC.i9jTQIfVZLHZncUdiiQu44.AW8Q5Vxi $2b$12$UtMJa7NMgL8WbIbJZ1aV0u
