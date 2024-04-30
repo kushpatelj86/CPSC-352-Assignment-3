@@ -42,9 +42,9 @@ def loginto_account():
 		user_entry = get_user_entry( username.encode()) # an array
 		stored_hash = user_entry[2].rstrip()
 		
-		print("Hashed pass", stored_hash)
+		# print("Hashed pass", stored_hash)
 		password = input("password: ")
-		print("Hashed password entry ", stored_hash)
+		# print("Hashed password entry ", stored_hash)
 		if(bcrypt.checkpw(password.encode(), stored_hash)):
 			return True
 		else:
@@ -75,10 +75,10 @@ def get_user_entry( username = ""):
 		if search_str in entry: # looking for the username to match
 			break 
 		line_number += 1
-	print("line index: " , line_number)
+	# print("line index: " , line_number)
 	chosen_str = file_contents[line_number] # get the line contents of the username match
 	line_array = chosen_str.split(" ".encode())
-	print("line array: " , line_array)
+	# print("line array: " , line_array)
 	return line_array
 
 	
@@ -88,7 +88,7 @@ def hash_password ( plain_password = "", salt_int = 1):
 	salt = bcrypt.gensalt()
 	
 	
-	print("salt: ", salt)
+	# print("salt: ", salt)
 	hashed_string = bcrypt.hashpw( bytes, salt)
 	return hashed_string
 
